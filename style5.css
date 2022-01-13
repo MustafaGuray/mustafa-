@@ -1,0 +1,73 @@
+
+#mustafa{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas:
+    "nav nav nav "
+    "main main main"
+    "Guray1 Guray2 Guray3"
+    "footer footer footer";
+    grid-gap: 3px;
+    margin-left:325px;
+}
+nav{
+    background-color: #FFC288;
+grid-area: nav;
+display: flex;
+background-image: url(images1/png-transparent-arda-otomotiv-logo-automotive-design-trademark-hitch-hiker-angle-text-trademark.png);
+background-repeat: no-repeat;
+background-size: 75px;
+justify-content: flex-end;
+background-position-y: center;
+background-position: 15px;
+
+}
+nav table tr th {
+    float: right;
+    text-indent: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin: 5px;
+}
+main{
+    background-color: #FEA82F;
+grid-area: main;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+main img{
+    width: 600px;
+    height: 400px;
+    margin: 1px;
+}
+.Guray1{
+    background-color: #FF6701;
+grid-area: Guray1;}
+.Guray1 img {
+    width: 400px;
+    height: 400px;
+}
+.Guray2{
+    background-color: #FF6701;
+    grid-area: Guray2;}
+    .Guray2 img {
+        width: 400px;
+        height: 400px;
+    }
+.Guray3{
+    background-color: #FF6701;
+    grid-area: Guray3;}
+    .Guray3 img {
+        width: 400px;
+        height: 400px;
+    }
+footer{
+    background-color: #BD2000;
+    grid-area: footer;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
